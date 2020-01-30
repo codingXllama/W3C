@@ -7,11 +7,12 @@ body{
     border:1px solid black;
     font-size:2rem;
     color:white;
-    display:inline-flex;
-    /* align-items:center; */
-    /* align-content: center; */
-    /* justify-content: center; */
-    /* flex-flow: row wrap; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    justify-content: flex-end;
+    justify-content: space-between;
+    justify-content: space-evenly;
     background-color:rgba(39, 103, 167, 0.726);
 }
 
@@ -21,7 +22,7 @@ body{
     background-color:white;
     border:1px inset white;
     border-radius:  0.25em;
-    margin:1rem;
+    /* margin:1rem; */
 }
 
 .box1{
