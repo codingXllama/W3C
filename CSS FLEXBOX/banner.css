@@ -1,0 +1,42 @@
+/* getting rid of default padding and margins */
+*{
+    margin: 0;
+    padding:0;
+}
+
+.hero{
+    /* align-content:center; */
+    min-height: 100vh;
+    background-image:url(/bg1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    /* adding the paral scroll effect */
+    background-attachment: fixed;
+
+}
+
+.hero>h1{
+    text-transform: uppercase;
+    font-size:60px;
+    color:#333;
+    background-color:white;
+}
+
+.banner{
+    min-height: 100vh;
+    background-color:rgb(224, 172, 172);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#page2{
+    font-size:3rem;
+    text-transform: capitalize;
+    background-color:white;
+    color:rgb(42, 99, 82);
+}
