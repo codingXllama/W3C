@@ -10,13 +10,26 @@ body {
   font-size: 2rem;
   color: white;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  /* justify-content: center; */
+  align-items: flex-end;
   /* align-content: center; */
-  align-content: space-around;
+  /* align-content: space-around; */
 
 }
+
+
+.box3{
+    align-self:center;
+}
+.box5{
+    align-self:stretch;
+}
+
+.box6{
+    align-self:baseline;
+}
+
+
 
 /* when working with flex-direction to be 'column', then if you want to make align the content in ceneter, you 
 must use the following property: justify-content: ceneter, this because the main axis & cross axis changes*/
@@ -34,6 +47,21 @@ must use the following property: justify-content: ceneter, this because the main
   /* align-content: space-around; */
 
 }
+
+
+.box1{
+    flex-direction: column;
+    order:1;
+}
+
+.box3{
+    order:5;
+}
+
+.box2{
+    order:-1;
+}
+
 
 
 .box {
