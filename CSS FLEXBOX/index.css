@@ -5,13 +5,46 @@ body{
 
 .content{
     border:1px solid black;
-    display:flex;
+    font-size:2rem;
+    color:white;
+    display:inline-flex;
+    /* align-items:center; */
+    /* align-content: center; */
+    /* justify-content: center; */
+    /* flex-flow: row wrap; */
     background-color:rgba(39, 103, 167, 0.726);
-
 }
 
 .box{
-    padding: 1.5rem;
+    padding: 30px;
+    text-align: center;
     background-color:white;
+    border:1px inset white;
+    border-radius:  0.25em;
+    margin:1rem;
+}
+
+.box1{
+    background-color:rgb(218, 114, 114);
+    
+}
+.box2{
+    background-color:rgb(24, 179, 89);
+    
+}
+.box3{
+    background-color:rgb(180, 114, 218);
+    
+}
+.box4{
+    background-color:rgb(187, 216, 59);
+    
+}
+.box5{
+    background-color:rgb(199, 32, 101);
+    
+}
+.box6{
+    background-color:rgb(247, 113, 3);
     
 }
