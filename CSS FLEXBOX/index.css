@@ -5,18 +5,46 @@ body {
 
 .container {
   background-color: rgba(39, 103, 167, 0.726);
-  height: 60vh;
+  /* height: 60vh; */
   border: 3px outset rgb(20, 236, 0);
   font-size: 2rem;
   color: white;
   display: flex;
+  /** using the property below is IDEAL for tryinig to fill the white-space gaps that's behind our box items */
+  justify-content: space-between;
+  flex-flow: row wrap;
+  /* align-items: center; */
   /* justify-content: center; */
-  align-items: flex-end;
-  /* align-content: center; */
-  /* align-content: space-around; */
-
 }
 
+/* Demonstrating an example of using the 'flex' property  */
+.box {
+  /*!  NOTE  => 'Flex' Property
+  When using 'flex' property, it takes 3 values, 
+  1st value is the flex-gorw (by default it's set to 0, so in our case we it to 1),
+  2nd value is flex-shrink=> when flex-shrink: 0;, that means you don't want your box to shrink. 
+  3rd value is the base-line which is the min value for either the (width or length)
+  that we must have to satisfy our layout or else will be
+  forced to add flex-flow: 'wrap'
+  */
+  /** The 'Flex' property is used best when tyring to justify the margins of the items in a row or col or whatever. */
+  /*! When using flex basis, 'Flex' it's best to use '%' instead of px
+  This is IDEALY used for creating columns 
+  */
+  flex: 0 0 calc(1% - 1rem);
+}
+
+/* Below is an example of using the 'flex-grow' property, uncomment to the code below to understand */
+
+/* .box1 {
+  flex-grow: 1;
+}
+.box2 {
+  flex-grow: 2;
+} */
+
+/* Un-Comment what's below so you can text the align-self property */
+/* 
 
 .box3{
     align-self:center;
@@ -27,13 +55,11 @@ body {
 
 .box6{
     align-self:baseline;
-}
-
-
+} */
 
 /* when working with flex-direction to be 'column', then if you want to make align the content in ceneter, you 
 must use the following property: justify-content: ceneter, this because the main axis & cross axis changes*/
-.container-1{
+.container-1 {
   background-color: rgba(39, 103, 167, 0.726);
   height: 90vh;
   border: 3px solid rgb(252, 0, 0);
@@ -45,24 +71,20 @@ must use the following property: justify-content: ceneter, this because the main
   justify-content: center;
   align-content: center;
   /* align-content: space-around; */
-
 }
 
-
-.box1{
-    flex-direction: column;
-    order:1;
+.box1 {
+  flex-direction: column;
+  order: 1;
 }
 
-.box3{
-    order:5;
+.box3 {
+  order: 5;
 }
 
-.box2{
-    order:-1;
+.box2 {
+  order: -1;
 }
-
-
 
 .box {
   padding: 30px;
