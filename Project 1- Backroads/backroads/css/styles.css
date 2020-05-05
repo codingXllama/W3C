@@ -1,0 +1,38 @@
+/* Importing a google font */
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400|Poppin&display=swap");
+
+/* Creating css variables */
+:root {
+  --primaryColor: #3f84d4;
+  --mainWhite: #fff;
+  --offWhite: #f7f7f7;
+  --mainBlack: rgb(34, 34, 34);
+  --mainGrey: #afafaf;
+  --darkGrey: rgb(95, 95, 95);
+  --mainTransition: all 0.3s linear;
+  --mainSpacing: 0.25rem;
+
+  /* Go to box-shadow generator to create these shadows below */
+  --lightShadow: 2px 5px 3px 0 rgba(0, 0, 0, 0.25);
+  --darkShadow: 4px 10px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+/* resetting default browser styles */
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  /* border-box allows us to add style for our border box */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: var(--mainBlack);
+  background: var(--offWhite);
+
+  line-height: 1.4;
+  font-family: "Poppins", sans-serif;
+}

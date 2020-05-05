@@ -1,0 +1,41 @@
+:root {
+  margin: 0;
+  padding: 0;
+  --bgColor1: #cef6ce;
+  --bgColor2: rgba(46, 99, 214, 0.575);
+  --bgColor3: rgb(255, 111, 183);
+}
+
+* {
+  margin: 0px;
+  padding: 0;
+}
+
+/* Box 1 */
+#first-section {
+  color: #2c2b2c;
+  /* 100 px top right bot left  */
+  position: relative;
+  margin-left: 150px;
+  width: 200px;
+  float: left;
+  background: var(--bgColor1);
+}
+
+/* Box 2 */
+#second-section {
+  background: var(--bgColor2);
+  padding: 11px 0px 9px 99px;
+  margin: 50px 20px;
+  /* margin: 50px 20px 50px 20px; */
+
+  float: left;
+  width: 400px;
+}
+
+/* Box 3 */
+#third-section {
+  width: 200px;
+  background: var(--bgColor3);
+  /* clear: both; */
+}

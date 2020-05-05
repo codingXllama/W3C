@@ -1,0 +1,32 @@
+p {
+  text-align: right;
+}
+
+div {
+  background-color: rgb(0, 247, 255);
+  width: 500px;
+  height: 500px;
+}
+
+.centerText {
+  text-align: center;
+}
+
+.justifyText {
+  text-align: justify;
+}
+
+#someLink {
+  font-style: italic;
+}
+
+#someLink:hover {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+/* only makes the ink color red, if the link has already been visited  */
+#someLink:visited {
+  color: red;
+}

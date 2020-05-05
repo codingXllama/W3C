@@ -1,0 +1,36 @@
+:root {
+  margin: 0;
+  padding: 0;
+  --bgColor1: rgb(0, 0, 0, 1);
+  --bgColor2: rgba(158, 42, 194, 0.575);
+  --bgColor3: rgba(39, 214, 39, 1);
+}
+
+* {
+  margin: 0px;
+  padding: 0;
+}
+
+#first-section {
+  color: white;
+  /*  When you set position to absolute, this allows this section to be INFRONT of all other sections,making everything else located behind it */
+  /* The asbolute positionsing , takes the elemnt that you are positioning out of the flow of the page, inOther words, the other element*/
+  position: absolute;
+  left: 900px;
+  width: auto;
+  background: var(--bgColor1);
+}
+
+#second-section {
+  position: absolute;
+  left: 900px;
+
+  background: var(--bgColor2);
+}
+
+#third-section {
+  position: relative;
+  left: 800px;
+  background: var(--bgColor3);
+  clear: both;
+}

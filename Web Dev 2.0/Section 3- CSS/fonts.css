@@ -1,0 +1,27 @@
+p {
+  font-size: 2rem;
+  font-family: Spartan, "Times New Roman", Times, serif;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* hover effect */
+a:hover {
+  color: green;
+  font-size: 2rem;
+  background-color: yellow;
+}

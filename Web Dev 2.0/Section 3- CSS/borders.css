@@ -1,0 +1,41 @@
+/* classes keeps the common properties between different elements*/
+.square {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  float: left;
+}
+
+#textSection {
+  font-size: 30px;
+  
+}
+
+#box1 {
+  color: white;
+  background-color: red;
+  border: 4px yellow solid;
+  /* border-style: dashed dotted ridge solid; */
+}
+
+#box2 {
+  color: white;
+  background-color: blue;
+  /* Creating n-sides of different border style in this case n=4 since we're working with a square */
+  border-style: dashed dotted ridge solid;
+}
+
+#box3 {
+  display: flex;
+  color: white;
+  background-color: green;
+  /* Creating a border that has 4 different colors on each side */
+  border: 10px solid;
+  border-color: red rgb(252, 50, 225) blue yellow;
+
+  border-radius: 50%;
+  /* border-radius: 50px; */
+  /* CENTERING THE TEXT using display:flex */
+  justify-content: center;
+  align-items: center;
+}
