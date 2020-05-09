@@ -1,0 +1,12 @@
+>When we talk about units in CSS grid, we are also including the rows.
+We have the following units: (NOTE** unit 5 and 6 are RESPONSIVE!!)
+1. px
+2. rem
+3. em
+4. %
+5. auto  - responsive 
+Example:  grid-template-columns: 200px 7rem auto;
+
+
+
+6. fr - MOST USED, Responsive
