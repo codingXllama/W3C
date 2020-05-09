@@ -10,3 +10,28 @@ Example:  grid-template-columns: 200px 7rem auto;
 
 
 6. fr - MOST USED, Responsive
+
+
+                                                   Grid-template rows
+
+ property name w/example:  grid-template-rows: 300px 20rem;                                               
+
+
+
+                                                    fr-units
+
+fraction of available space.
+1fr is 1 fraction of the entire space, so basically you end up using the entire space 100% of it 
+1fr 1fr means you have 2 fractions each taking 100%/2fr = 50% of the space avaliable in the column or row
+2fr 1fr in regards to columns, means you will use 2fr for the first column and 1fr for the 2nd column
+
+
+
+                                                    Gap property
+
+
+1.grid-gap: 50px; means that the gap for BOTH the row and column of the grid is 50px
+2.grid-gap: 50px 10px; means that the 1st value (50%) represents the row gap and 2nd value (10%) is for the column gap
+3.grid-column-gap: 50px; means that only the gap only for the column of the grid is 50px;
+4.grid-row-gap: 50px; means that only the gap for the row of the grid is 50px;
+5.gap: 90px 10px;   this means that you have 90px gap for the rows and 10px gap in between the columns 
