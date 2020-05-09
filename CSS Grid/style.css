@@ -21,5 +21,23 @@ body {
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
-  border: 1px solid red;
+  border: 3px solid red;
+  color: #ffff;
+}
+
+.cell-1 {
+  background: #c7b137;
+}
+
+.cell-2 {
+  background: #c31f09;
+}
+.cell-3 {
+  background: #221858;
+}
+.cell-4 {
+  background: #18584a;
+}
+.cell-5 {
+  background: #531858;
 }
